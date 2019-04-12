@@ -99,11 +99,13 @@ android {
 
     defaultConfig {
         applicationId "com.discourse"
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
+        minSdkVersion 16
+        //minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion 26
+        //targetSdkVersion rootProject.ext.targetSdkVersion
         multiDexEnabled true
         versionCode 48
-        versionName MYAPP_VERSION
+        versionName "2.0.2"
 
         ndk {
           abiFilters "armeabi-v7a", "x86"
@@ -112,10 +114,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file(MYAPP_RELEASE_STORE_FILE)
-            storePassword MYAPP_RELEASE_STORE_PASSWORD
-            keyAlias MYAPP_RELEASE_KEY_ALIAS
-            keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            storeFile file("/home/glab/Desktop/cool.keystore")
+            storePassword "qwerty"
+            keyAlias "alias_name"
+            keyPassword "qwerty"
         }
     }
 
@@ -173,7 +175,7 @@ dependencies {
     compile 'com.android.support:customtabs:25.3.1'
     compile 'com.google.firebase:firebase-core:16.0.1'
     compile 'com.google.firebase:firebase-messaging:17.0.0'
-    compile 'com.google.android.gms:play-services-gcm:15.0.1'
+    compile 'com.google.android.gms:play-services-gcm:16.1.0'
     compile('com.crashlytics.sdk.android:crashlytics:2.9.5@aar') {
       transitive = true;
     }
@@ -188,3 +190,4 @@ task copyDownloadableDepsToLibs(type: Copy) {
 }
 
 apply plugin: 'com.google.gms.google-services'
+com.google.gms.googleservices.GoogleServicesPlugin.config.disableVersionCheck = true
