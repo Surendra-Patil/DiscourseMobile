@@ -114,7 +114,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("/home/glab/Desktop/cool.keystore")
+            storeFile file("../generated.keystore")
             storePassword "qwerty"
             keyAlias "alias_name"
             keyPassword "qwerty"
