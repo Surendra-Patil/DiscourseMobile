@@ -156,8 +156,8 @@ class OnBoardingView extends React.Component {
 
 const suggestedSites = [
   "https://meta.discourse.org",
-  "https://community.cartalk.com",
-  "https://community.imgur.com",
+  "https://x.metastudio.org",
+  "https://t2.metastudio.org",
   "https://bbs.boingboing.net"
 ];
 
