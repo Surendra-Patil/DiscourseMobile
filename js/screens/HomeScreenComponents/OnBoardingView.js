@@ -155,10 +155,9 @@ class OnBoardingView extends React.Component {
 }
 
 const suggestedSites = [
-  "https://meta.discourse.org",
+  "https://stemgames.metastudio.org",
   "https://x.metastudio.org",
-  "https://t2.metastudio.org",
-  "https://bbs.boingboing.net"
+  "https://meta.discourse.org",
 ];
 
 const styles = StyleSheet.create({
