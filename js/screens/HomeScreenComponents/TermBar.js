@@ -62,7 +62,7 @@ class TermBar extends React.Component {
             onSubmitEditing={event =>
               this.handleSubmitTerm(event.nativeEvent.text)
             }
-            placeholder="meta.discourse.org"
+            placeholder="https://stemgames.metastudio.org"
             style={[styles.term]}
             onChangeText={text => this.setState({ text })}
             underlineColorAndroid={"transparent"}
