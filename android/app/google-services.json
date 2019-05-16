@@ -1,52 +1,66 @@
 {
   "project_info": {
-    "project_number": "152153473304",
-    "firebase_url": "https://discourse-notifier.firebaseio.com",
-    "project_id": "discourse-notifier",
-    "storage_bucket": "discourse-notifier.appspot.com"
+    "project_number": "401759989514",
+    "firebase_url": "https://stemgames-34e5b.firebaseio.com",
+    "project_id": "stemgames-34e5b",
+    "storage_bucket": "stemgames-34e5b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:152153473304:android:605e4e3efe63f8a7",
+        "mobilesdk_app_id": "1:401759989514:android:605e4e3efe63f8a7",
         "android_client_info": {
           "package_name": "com.discourse"
         }
       },
       "oauth_client": [
         {
-          "client_id": "152153473304-uk4dnivb8d748020i1fue97e6he0u0oa.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.discourse",
-            "certificate_hash": "E447E24C715B77FA0EFB4D11B5D1BEE808FF92DC"
-          }
-        },
-        {
-          "client_id": "152153473304-f9ke31ian1aguj6k98kq2m7okc7c4duk.apps.googleusercontent.com",
+          "client_id": "401759989514-i0spb4ljvp38dkj1giid25o673aia8t2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBFCIaUA1W_YbFBb66I-ZfsG4qVw3jxYmc"
+          "current_key": "AIzaSyAIzxTaOq7vtk2InFL7XqRGaUZCfYMwgRk"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "152153473304-f9ke31ian1aguj6k98kq2m7okc7c4duk.apps.googleusercontent.com",
+              "client_id": "401759989514-i0spb4ljvp38dkj1giid25o673aia8t2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401759989514:android:5b2df657600c4291",
+        "android_client_info": {
+          "package_name": "com.stemgames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401759989514-i0spb4ljvp38dkj1giid25o673aia8t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIzxTaOq7vtk2InFL7XqRGaUZCfYMwgRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401759989514-i0spb4ljvp38dkj1giid25o673aia8t2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
